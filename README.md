@@ -1,111 +1,84 @@
-🌾 CropCareAI – Smart Crop Disease Detection (Flutter Web)
-🔗 Live Demo:
+# 🌾 KrishiCare -- Smart Crop Disease Detection
 
-👉 https://cropcareai-u7co.onrender.com/
+### AI-Powered Crop Health Monitoring \| Built for Smart India Hackathon
 
-CropCareAI is an AI-powered crop health monitoring web application built using Flutter Web. The app allows farmers to upload crop images and instantly detect diseases using trained machine-learning models.
+🔗 Live Demo: https://cropcareai-u7co.onrender.com/
 
-🚀 Features
-🔍 AI-Based Crop Disease Detection
+------------------------------------------------------------------------
 
-Upload leaf/plant images
+## About the Project
 
-AI predicts possible diseases
+KrishiCare is an AI-powered crop health monitoring web application built
+using Flutter Web. It allows farmers to upload crop images and instantly
+detect plant diseases using trained deep-learning models.
 
-Shows disease name + confidence score
+The goal is to provide early disease detection, improve crop yield, and
+support farmers with accessible technology.
 
-🧠 Deep Learning Integration
+------------------------------------------------------------------------
 
-Backend ML API for predictions
+## Features
 
-Supports multiple crops (wheat, rice, maize, etc.)
+AI-Based Crop Disease Detection - Upload crop / leaf images - Detect
+possible plant diseases - Display disease name + confidence score
 
-🎨 Built With Flutter
+Deep Learning Integration - Backend ML API for predictions - Supports
+multiple crops (wheat, rice, maize, etc.) - Uses trained CNN models
 
-Clean and modern UI
+Built With Flutter Web - Clean and modern UI - Fully responsive across
+devices - Runs directly in browser
 
-Responsive across devices
-
-Runs directly in browser (no installation)
-
-☁️ Hosted on Render
-
-Stable hosting
-
-Fast and lightweight
-
+Hosted on Render - Stable hosting - Fast and lightweight deployment -
 Optimized for Flutter Web
 
-📁 Project Structure
-lib/
-│── main.dart
-│── screens/
-│     └── home_screen.dart
-│── widgets/
-│     └── upload_card.dart
-│── services/
-│     └── api_service.dart
-assets/
-web/
+------------------------------------------------------------------------
 
-🔧 How It Works (Flow)
-**User uploads image**
-        ↓
-**Flutter Web** → **Sends image to ML API**
-        ↓
-**API processes image** using trained model
-        ↓
-**Returns prediction + accuracy**
-        ↓
-**Flutter Web displays results**
+## Project Structure
 
-🛠️ Tech Stack
-Component	Technology
-Frontend	Flutter Web
-Backend (API)	Python / FastAPI / Flask
-ML Model	TensorFlow / PyTorch
-Hosting	Render.com
-Storage	Firebase / Cloudinary / Local server
-▶️ How to Run Locally
-1️⃣ Clone the Repo
-git clone <your-repo-url>
-cd cropcareai
+lib/ │── main.dart ├── screens/home_screen.dart ├──
+widgets/upload_card.dart └── services/api_service.dart
 
-2️⃣ Install Dependencies
-flutter pub get
+assets/ web/
 
-3️⃣ Enable Web Support
-flutter config --enable-web
+------------------------------------------------------------------------
 
-4️⃣ Run the App
-flutter run -d chrome
+## How It Works
 
-🌐 Deployment (Render)
-Build Flutter Web
-flutter build web
+User uploads crop image → Flutter Web sends image to ML API → API
+processes image using trained model → Prediction + confidence score
+returned → Results displayed to the user
 
+------------------------------------------------------------------------
 
-This generates:
+## Tech Stack
 
-/build/web
+Frontend: Flutter Web Backend API: Python / FastAPI / Flask ML Models:
+TensorFlow / PyTorch Hosting: Render Storage: Firebase / Cloudinary /
+Local Server
 
+------------------------------------------------------------------------
 
-Upload this folder to Render → Static Site.
+## Run Locally
 
-📸 Screenshots (Optional)
+git clone https://github.com/your-username/krishicare.git cd krishicare
+flutter pub get flutter config --enable-web flutter run -d chrome
 
-Add your screenshots here.
+------------------------------------------------------------------------
 
-📞 Contact / Support
+## Deployment
 
-If you need help with:
+flutter build web Upload /build/web to Render Static Site.
 
-Improving UI
+------------------------------------------------------------------------
 
-Deploying backend ML model
+## Future Improvements
 
-Generating APK (Android)
+-   More crop disease models
+-   Offline prediction support
+-   Farmer language support
+-   Android & iOS mobile apps
+-   Crop treatment recommendations
 
-Adding new crop disease models
+------------------------------------------------------------------------
 
-Feel free to ask me anytime! 🚀
+If you like this project, please star the repo.
